@@ -1,6 +1,7 @@
 const express = require('express');
 const app = express();
-const PORT = 3000;
+const HOST = 'localhost'
+const PORT = 8888;
 
 // In-memory book inventory
 let books = [];
